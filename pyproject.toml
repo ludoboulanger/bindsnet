@@ -14,18 +14,18 @@ python = ">=3.8,<3.11"
 numpy = "^1.23.1"
 scipy = "^1.8.1"
 Cython = "^0.29.24"
-torch = "1.13.0"
-torchvision = "0.14.0"
-torchaudio = "0.13.0"
+torch = { url = "https://download.pytorch.org/whl/cu116/torch-1.12.1%2Bcu116-cp310-cp310-win_amd64.whl"}
+torchaudio = { url = "https://download.pytorch.org/whl/cu116/torchaudio-0.12.1%2Bcu116-cp310-cp310-win_amd64.whl"}
+torchvision = { url = "https://download.pytorch.org/whl/cu116/torchvision-0.13.1%2Bcu116-cp310-cp310-win_amd64.whl"}
 tensorboardX = "2.5.1"
 tqdm = "^4.62.2"
 matplotlib = "^3.4.3"
 gymnasium = "^0.27.0"
-scikit-build = "^0.12.0"
-scikit-image = "^0.18.3"
-scikit-learn = "^0.24.2"
+scikit-build = "^0.16.4"
+scikit-image = "^0.19.3"
+scikit-learn = "^1.2.0"
 opencv-python = "^4.6.0"
-pandas = "^1.4.2"
+pandas = "^1.5.3"
 foolbox = "^3.3.1"
 
 [tool.poetry.dev-dependencies]
